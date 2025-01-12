@@ -11,6 +11,9 @@ const resultBox = document.getElementById("resultCode");
 
 imageInput.addEventListener('change', (event) => {
   const file = event.target.files[0];
+  if (file.type.startsWith("video/")){
+    alert("Invalid file type. Please upload an image.");
+  }
   if (file) {
     const reader = new FileReader();
 
