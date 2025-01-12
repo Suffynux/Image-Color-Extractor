@@ -4,7 +4,7 @@ This is a simple web application that allows users to upload an image, pick a co
 
 ## Features
 - Upload an image through the file input
-- Use the **Eyedropper API** to pick colors from the uploaded image (only works on desktops)
+- Use the **Color.js** to pick colors from the uploaded image
 - Display the selected color's hex code
 - Clear the uploaded image with a button click
 - Responsive layout for desktop and mobile devices
