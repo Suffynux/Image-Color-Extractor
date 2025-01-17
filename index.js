@@ -29,7 +29,7 @@ imageInput.addEventListener('change', (event) => {
       showImageDiv.appendChild(img);
 
       // Extract prominent colors from the image using Color.js
-      colorjs.prominent(img.src, { amount: 10 }).then(colors => {
+      colorjs.prominent(img.src, { amount: 15 }).then(colors => {
         console.log('Prominent colors from Color.js:', colors);
         prominentColorsDiv.innerHTML = ''; // Clear previous color boxes
 
